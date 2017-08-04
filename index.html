@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Trivia Game</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Courgette|Sedgwick+Ave+Display" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="asset/css/style.css">
+
+</head>
+<body>
+	<div class="jumbotron jumbotron-fluid" id="header">
+ 		 <div class="container">
+    		<h1 class="display-3">Disney Trivia</h1>
+ 			<button type="button" class="btn btn-success" id="start">Start</button>
+   	 	</div>
+	</div>
+	<div id="questions">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 id="time-left"></h2>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class = "col-md-4"></div>
+			<div class = "col-md-4">
+				<h3 id="q1">What is the name of Disney's first film?</h3>
+				<input type="radio" name="q1" value="a"> a. Cinderalla<br>
+				<input type="radio" name="q1" value="b"> b. Snow White<br>
+				<input type="radio" name="q1" value="c"> c. Mickey Mouse<br>
+			</div>
+			<div class = "col-md-4"></div>
+		</div>
+		<div class="row">
+			<div class = "col-md-4"></div>
+			<div class = "col-md-4">
+				<h3 id="q2">Who is Simba's father?</h3>
+				<input type="radio" name="q2" value="a"> a. James<br>
+				<input type="radio" name="q2" value="b"> b. Scar<br>
+				<input type="radio" name="q2" value="c"> c. Mufasa<br>
+			</div>
+			<div class = "col-md-4"></div>
+		</div>s
+		<div class="row">
+			<div class = "col-md-4"></div>
+			<div class = "col-md-4">
+				<h3 id="q3">"Disney is the most _____ place on earth"</h3>
+				<input type="radio" name="q3" value="a"> a. Magical<br>
+				<input type="radio" name="q3" value="b"> b. Dopest<br>
+				<input type="radio" name="q3" value="c"> c. Nicest<br>
+			</div>
+			<div class = "col-md-4"></div>
+		</div>
+		<div class="row">
+			<div class = "col-md-4"></div>
+			<div class = "col-md-4">
+				<h3 id="q4">Finish the song: "Let it ___"</h3>
+				<input type="radio" name="q4" value="a"> a. blow<br>
+				<input type="radio" name="q4" value="b"> b. go<br>
+				<input type="radio" name="q4" value="c"> c. snow<br>
+			</div>
+			<div class = "col-md-4"></div>
+		</div>
+		<div class="row">
+			<div class = "col-md-4"></div>
+			<div class = "col-md-4">
+				<h3 id="q5">Cinderalla lost her ____ slipper</h3>
+				<input type="radio" name="q5" value="a"> a. gold<br>
+				<input type="radio" name="q5" value="b"> b. new<br>
+				<input type="radio" name="q5" value="c"> c. glass<br>
+			</div>
+		<div class = "col-md-4"></div>
+		</div>
+		<div class="row">
+			<div class = "col-md-4"></div>
+			<div class = "col-md-4">
+				<h3 id="q6">What Disney film gross the most money?</h3>
+				<input type="radio" name="q6" value="a"> a. Fantasia<br>
+				<input type="radio" name="q6" value="b"> b. The Jungle Book<br>
+				<input type="radio" name="q6" value="c"> c. Pinocchio<br>
+			</div>
+			<div class = "col-md-4"></div>
+		</div>
+		<div class="row">
+			<div class = "col-md-4"></div>
+			<div class = "col-md-4">
+				<h3 id="q7">What is the highest grossing Disney movies?</h3>
+				<input type="radio" name="q7" value="a"> a. Doc<br>
+				<input type="radio" name="q7" value="b"> b. Sleepy<br>
+				<input type="radio" name="q7" value="c"> c. Angry<br>
+			</div>
+			<div class = "col-md-4"></div>
+		</div>
+		<div class="row">
+			<div class = "col-md-4"></div>
+			<div class = "col-md-4">
+				<h3 id="q8">Disneyland open July 17,____. </h3>
+				<input type="radio" name="q8" value="a"> a. 1937<br>
+				<input type="radio" name="q8" value="b"> b. 1955<br>
+				<input type="radio" name="q8" value="c"> c. 1971<br>
+			</div>
+			<div class = "col-md-4"></div>
+		</div>	
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+			<br>
+				<button type="button" class="btn btn-success" id="finish">Finish</button>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+	<div>
+	    <h1 id="results"> </h1>
+		
+	</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script src="asset/javascript/app.js"></script>
+
+
+
+</body>
+</html>

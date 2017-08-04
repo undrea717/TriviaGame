@@ -1,0 +1,28 @@
+body { 
+		background-image: url(http://wallpapercave.com/wp/3LBX9VI.jpg);
+		font-family: 'Courgette', cursive;
+		
+}
+
+#start{
+		margin-top: 50px;
+		width: 150px;
+		height: 75px;
+	
+} 
+
+#header{
+		text-align: center;
+		background-color: transparent;
+}
+	 
+
+#questions{
+		background-color: white;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+
+#results{
+		text-align: center;
+}
